@@ -1,0 +1,88 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  clear: both;
+}
+#a {
+  color: red;
+}
+#b {
+  width: 3px;
+  height: 1px;
+}
+
+.h1 {
+  color: blue;
+  font-family: sans-serif;
+  text-align: center;
+  border: solid orange 4px;
+  background-color: orange;
+}
+
+article::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+article {
+  background-color: black;
+}
+
+.links {
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+p {
+  font-family: cursive;
+  color: green;
+}
+
+#Name {
+  color: blueviolet;
+  font-style: italic;
+  font-weight: normal;
+}
+
+#adipurush {
+  width: 450px;
+  float: left;
+}
+
+#Pushpa_2 {
+  width: 450px;
+  float: right;
+}
+
+#pushpa_2-img {
+  height: 250px;
+  width: auto;
+}
+
+#salaar {
+  width: 450px;
+  /* clear: both; */
+  float: left;
+}
+
+#salaar-img {
+  height: 250px;
+  width: auto;
+}
+
+#project_k {
+  width: 450px;
+  /* clear: both; */
+  float: right;
+}
+
+#project_k-img {
+  height: 250px;
+  width: auto;
+}
+
+/* div {
+  clear: both;
+} */
